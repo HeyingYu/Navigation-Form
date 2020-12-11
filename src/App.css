@@ -1,0 +1,53 @@
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.pageTitle {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  background-color: black;
+}
+.title {
+  color: white;
+}
+.row {
+  display: block;
+  width: 100%;
+  min-width: 100% !important;
+  justify-content: space-around;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  padding: 0 20px;
+}
+
+.card {
+  border: 1px solid black;
+  background-color: white;
+}
+
+.container {
+  border: 1px solid black;
+  background-color: lightblue;
+  width: 100%;
+  padding-top: px;
+}
+
+.textBody {
+  border: 1px solid black;
+  background-color: lightblue;
+  justify-content: center;
+  text-align: center;
+}
+.textBorder {
+  padding-top: 20px;
+  justify-content: center;
+}
